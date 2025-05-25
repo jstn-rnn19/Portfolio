@@ -1,0 +1,51 @@
+
+#circle {
+  position: absolute;
+  opacity: .1;
+  top: -100px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+}
+#circle1 {
+  position: absolute;
+  opacity: .1;
+  top: -200px;
+  left: -300px;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+}
+#circle2 {
+  position: absolute;
+  opacity: .1;
+  bottom: -300px;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+}
+#circle3 {
+  position: absolute;
+  opacity: .1;
+  left: -300px;
+  bottom: -200px;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+}
+#gmail {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  background-color: #b4a5e5;
+  border-radius: 50px;
+}
+#number {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  background-color: #b4a5e5;
+  border-radius: 100%;
+
+}
