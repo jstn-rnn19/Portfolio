@@ -11,6 +11,7 @@
   right: 0;
   height: auto;
   background-color: #05140e;
+  z-index: 999999;
 }
 .img  img{
   
@@ -29,7 +30,7 @@
 
   color: #b4a5e5;
   font-family: poppins;
-  font-size: 20px;
+  font-size: clamp(.4rem, 2vw, 1.3rem);
   text-decoration: none;
   font-weight: bold;
 

@@ -7,11 +7,28 @@ body {
   height: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  scroll-padding: 90px;
+  overflow-x: hidden;
+}
+main {
+  width: 100%;
+  height: 100%;
 }
 #Home {
-  min-height: 100vh;
+  height: 100vh;
   scroll-snap-align: start;
+  overflow: hidden;
+  margin: 0 clamp(20px,5vw,250px);
 }
 a {
   text-decoration: none;
+}
+#Aboutme, #Skills {
+  /* padding-top: min(6.50em, 8%); */
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow: hidden;
+  margin-top: 10vh;
+  margin: 0 clamp(20px,5vw,250px);
+  margin-top: clamp(20px,10vw,600px);
 }

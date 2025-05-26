@@ -1,0 +1,13 @@
+.skills {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.skill_container img {
+  width: 134px;
+}
+.skill_grid {
+  display: grid;
+}
