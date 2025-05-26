@@ -9,6 +9,7 @@ body {
   scroll-snap-type: y mandatory;
   scroll-padding: 90px;
   overflow-x: hidden;
+  font-family: poppins;
 }
 main {
   width: 100%;
